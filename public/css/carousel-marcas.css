@@ -1,0 +1,46 @@
+.img-marcas{
+    width:110px;
+    height: auto;
+    color: gray;
+}
+
+.carousel-marcas{
+    display: flex;
+    align-items: center;
+    margin: 50px 60px;
+}
+
+.mySwiper{
+    width: 90%;
+    
+}
+
+.btn-siguiente,.btn-anterior{
+color: gray;
+}
+
+@media (max-width:739px) {
+    .carousel-marcas{
+        justify-content: space-between;
+        
+    }
+    .img-marcas{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+
+@media (max-width:468px) {
+    
+    .carousel-marcas{
+        justify-content: center;
+        margin: auto;
+        
+    }
+    .img-marcas{
+        justify-content: center;
+    }
+    
+    
+}

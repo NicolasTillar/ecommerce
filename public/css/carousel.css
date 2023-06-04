@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body-carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-container{
+    max-width: 1300px;
+    width: 100%;
+}
+
+.slide-content{
+    overflow: hidden;
+    
+}
+.swiper-slide{
+    width: 300px;
+}
+
+.card-carousel{
+    margin-bottom: 30px;
+}
+
+.image-content{
+    position: relative;
+    row-gap: 5px;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #F8F8F8;
+}
+
+.slide-content{
+    margin: 0 40px;
+}
+
+.card-product{
+    position: relative;
+    width: 325px;
+    height: auto;
+}
+
+.card-product img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn-add-to-cart{
+    background-color:#F6D428 ;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-top: 8px;
+    transition: all 0.3ms ease;
+}
+
+.btn-add-to-cart:hover{
+    background-color: #fdb020;
+}
+
+.descripcion{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.desc-pre .desc{
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #999999;
+    letter-spacing: 0.8px;
+    margin: 10px 0;
+}
+
+.desc-pre .precio{
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    letter-spacing: 0.8px;
+}
+
+@media (max-width:1075px) {
+    .card-product{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        
+    }
+    
+   
+}
